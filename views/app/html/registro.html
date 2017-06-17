@@ -1,0 +1,48 @@
+<div class="modal fade" id="myModalReg" role="dialog">
+    <div class="modal-dialog">
+    
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> Registro</h4>
+        </div>
+
+        <div id="registroHTML"></div>
+
+        <div class="modal-body" style="padding:40px 50px;">
+          <div role="form">
+            <div class="form-group">
+              <label for="email"><span class="glyphicon glyphicon-envelope"></span> Correo</label>
+              <input type="text" class="form-control" id="email" placeholder="Correo">
+            </div>
+            
+            <div class="form-group">
+              <label for="ciudad"><span class="glyphicon glyphicon-globe"></span> Ciudad</label>
+              <input type="text" class="form-control" id="ciudad" placeholder="Ciudad">
+            </div>
+            <div class="form-group">
+              <label for="telefono"><span class="glyphicon glyphicon-phone"></span> Teléfono</label>
+              <input type="text" class="form-control" id="telefono" placeholder="Teléfono">
+            </div>
+
+            <div class="form-group">
+              <label for="usuario"><span class="glyphicon glyphicon-user"></span> Usuario</label>
+              <input type="text" class="form-control" id="usuario" placeholder="Nombre de usuario">
+            </div>
+            <div class="form-group">
+              <label for="pass"><span class="glyphicon glyphicon-eye-open"></span> Contraseña</label>
+              <input type="password" class="form-control" id="pass" placeholder="Contraseña">
+            </div>
+    
+              <button type="button" class="btn btn-primary page-scroll btn-block" id="btnGuardar"><span class="glyphicon glyphicon-off"></span> Guardar</button>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancelar</button>
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <script src="views/app/js/registro.js"></script>
